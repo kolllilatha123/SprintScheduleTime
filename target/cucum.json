@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14461969000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be in login page",
+            "match": {
+              "location": "Step.userShouldBeInLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "verifying the FacebookPage  with valid details",
+        "description": "",
+        "id": "verifying-the-facebookpage-functionalities;verifying-the-facebookpage--with-valid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.Step.userShouldEnterUsernameAndPasswordWithValidDetails(Step.java:25)\r\n\tat ✽.User should enter username and password with valid details(src/test/resources/Features/SearchProduct.feature:8)\r\n",
+              "duration": 17746800,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "User should enter username and password with valid details",
+            "match": {
+              "location": "Step.userShouldEnterUsernameAndPasswordWithValidDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User should navigate to next page",
+            "match": {
+              "location": "Step.userShouldNavigateToNextPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1539833100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be in login page",
+            "match": {
+              "location": "Step.userShouldBeInLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "verifying the FacebookPage  with invalid details",
+        "description": "",
+        "id": "verifying-the-facebookpage-functionalities;verifying-the-facebookpage--with-invalid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.Step.userShouldEnterUsernameAndPasswordWithInValidDetails(Step.java:39)\r\n\tat ✽.User should enter username and password with in valid details(src/test/resources/Features/SearchProduct.feature:12)\r\n",
+              "duration": 853700,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "User should enter username and password with in valid details",
+            "match": {
+              "location": "Step.userShouldEnterUsernameAndPasswordWithInValidDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User unable to navigate to next page",
+            "match": {
+              "location": "Step.userUnableToNavigateToNextPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verifying the FacebookPage functionalities",
+    "description": "",
+    "id": "verifying-the-facebookpage-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/SearchProduct.feature",
+    "tags": []
+  }
+]
